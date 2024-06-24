@@ -1,0 +1,195 @@
+					IT jobs
+					
+					
+		FS 				Tools				Testing or QA 
+		
+	Java				Devops				Manual
+	Python				PowerBi				Automation
+	.net				Salesforce
+						Service Now
+	
+					
+					
+Testing or QA  
+
+Manual Testing 
+
+					Automation	Testing
+
+	Selenium				Cypress			Playwrite		TOSCA 	
+
+----------------------------------------------------------------------------	
+					
+						Selenium
+						
+	Java		Python			C#			Ruby		JS 					
+						
+						
+Selenium + Java 
+
+--------------------------------------------------------------------------------						
+						
+						Testing
+						
+						
+		Functional					Non-Functional
+		
+----------------------------------------------------------------------------------
+
+					Functional	 Testing
+					
+		Manual						Automation			
+		
+------------------------------------------------------------------------------------
+
+Manual Testing
+
+1) Software Testing Concepts
+2) Software Testing Project
+3) Agile Methodology and JIRA tool
+4) SQL or Database Testing		
+					
+Automation Testing
+
+Java
+Selenium
+		
+		
+1) Software Testing Concepts 		
+
+
+Software : Set of instructions or programs to accomplish some task 
+
+e.g whatsapp , calculator app etc ..
+
+i) System softwares :
+
+e.g Operating System , drivers etc 
+
+ii) Programming Softwares
+
+e.g compiler , interpreter ,debugging tools etc ..
+
+iii) Application softwares 
+
+e.g Web apps , mobile apps , stand alone , mainframe , silver lite , salesforce , SAP etc ..
+
+
+what do we test in now-a-days apps ?
+
+1)functionalities 
+2) GUI Graphical user interface
+3) usability
+4) Performance 
+5) Load 
+6) Security 
+7) Compatabilty
+
+Testing :
+
+
+It is a process of checking the developed software is working as per client business requirements or not.
+
+->  to find defects 
+
+the prime motto of testing is to deliver a quality and risk free product.
+
+Terminolgies in Software testing :
+
+1) Product
+
+If a software application developed for multiple clients then it is product.
+
+e.g 
+NCR ==>ATM machine and s/w for HDFC,ICICI,kotak mahindra etc 
+2) Project
+
+If a software application developed for a specified client then it is project.
+
+TCS ==> taking NCR product and customizing as per HDFC 
+
+3) Error : Any incorrect human actions which gives wrong results .
+
+If developer find the mistake in his testing 
+
+4) Bug/Defect/Fault/Issue :
+
+If the error is found by tester then it is called Bug/Defect/Fault/Issue.
+
+5) Failure/Incident :
+
+If the error is found by end user then it is called Failure/Incident.
+
+
+Roles or Duties of Tester :
+
+1) understanding application under test or Domain knowledge
+2) Formal Testing (writing the test cases and executing)
+3) Adhoc Testing (NO Test cases)
+4) Report the defects to developers 
+5) Retesting and Regression Testing
+6) Develop and execute Automation scripts
+7) Analyse the results 
+8) publish test results
+
+
+	Business Requirements 						Deploy
+	
+			|										|
+			
+	System Requirements						Build system 
+	
+			|										|								
+	HLD High Level Design					Integrate Units 
+	
+			|										|
+		
+	LLD Low Level Design					Builds   Units
+	 
+			|										|
+		
+									Code 		
+	
+
+Now-a-days Testing :
+
+Testing is a process of checking are we developing right software or not and also
+checking the developed software is working as per client business requirements or not.
+
+
+			Software Testing = Verification + Validation
+			
+			
+Software Testing Principles :
+
+1) Exhaustive testing is impossible 
+2) Defect Clustering 
+3) Pesticide Paradox 
+4) Early Testing 
+5) Testing is application dependent and situation dependent
+6) Testing should show presence of defects
+7) Absence of defects is fallacy 
+
+
+Software Development Life Cycle (SDLC) :
+
+
+BA/Sales Team					Gathering Requirements					BRD/BRS/FRS/SRS
+Domain Experts
+										|
+PM/TM/PL/TL  						Planing 							Project Play
+																		Test Planing
+										|
+SA 									Design								Architecture Diagram/Sequence Diagrams
+UX designer																Figma Designs 
+
+										|
+Developer							Coding                            Source Code -> Build 
+
+										|
+Tester/TL							Testing 							TSc / TCs / RTM
+Developers
+										|
+Production Support team				Delivery & Maintenance				
+			
+			
