@@ -193,3 +193,74 @@ Developers
 Production Support team				Delivery & Maintenance				
 			
 			
+									SDLC	Models
+									
+									
+			1) Sequential 								2) Incremental 
+				- Waterfall									- RAD model
+				- V model									- Prototype
+															- Spiral
+															- Agile 
+									
+									
+									
+Waterfall :
+
+- small projects 
+- once completion of each phase , the phase get freezed (not to be edited)
+- If requirements are clear then choose Waterfall model 
+
+V- Model :
+
+Verification and Validation Model
+
+- small projects
+- If requirements are not clear then choose V model 
+
+
+RAD model : Rapid Application Development Model 
+
+- Big Project 
+- To be completed on short span of time 
+
+e.g : Insurance project
+
+where Auto Insurance , Health Insurance , Fire Insurance , Renters Insurance are independent of each other
+
+
+
+Prototype Model : 
+
+- Big projects 
+- Here client doesn't have clear requirements and propose some reference application			
+			
+e.g : Zomato (Food delivery app) refering to Swiggy
+			
+Spiral Model :
+
+-Big projects
+- If there is dependency on requirements then go for Spiral Model 
+
+e.g Banking Project (HDFC )
+here Bill pay module depends on Funds Transfer
+	 Funds Transfer depends on Accounts 
+
+
+
+
+							Software Testing approaches
+							
+							
+					Static Testing							Dynamic Testing
+					    or									   or
+					Verification							Validation
+							
+				- Reviews 								- Unit Testing
+					i) Requirements Reviews				- Intergration Testing 
+					ii) Project plan reviews			- System Testing
+					iii) Design Reviews 				- UAT Testing (User Acceptance Testing)
+					iv) Code Reviews 
+					v) Test Case Reviews
+				
+				- Walk Throughs 
+				    i) KT Sessions 
