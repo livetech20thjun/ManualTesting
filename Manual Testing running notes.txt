@@ -264,3 +264,70 @@ here Bill pay module depends on Funds Transfer
 				
 				- Walk Throughs 
 				    i) KT Sessions 
+					
+Formal Reviews  : 					
+
+
+If a review activity carried out using proper documentaation or checklist then it is called Formal review.
+
+
+Inspection :
+
+If a review activity carried out during execution of task then it is called Inspection.
+
+Audit : 					
+
+If a review activity carried out after execution of task then it is called Audit .
+
+InFormal Review : 
+
+If a review activity carried out without documentaation or checklist then it is called InFormal review.
+
+
+i) Requirements Reviews	:
+
+Business Analysts / Sales Team / Domain or Subject Matter Experts 
+
+ii) Project plan reviews
+     - Project plan   (Project Manager / Delivery Manager)
+	 - Master test plan  (Test Manager / Lead Principal QA )
+
+iii) Design Reviews
+      - System Design ( System Architect / Solution Architect)
+	  - UX Design ( Lead UX designer)
+iv) Code Reviews 
+     Senoir Developer / Lead Developer
+v) Test Case Reviews
+		Test Lead / Test Manager
+		
+Peer Reviews : Reviews carried out by peers (same level)
+
+Unit Testing :  Developers 
+
+a smallest part of the application (a method / function / procedure) to be tested 
+
+
+Intergration Testing  : Devlopers 
+
+After integrating the units, testing done on  method / function / procedure is called Intergration testing .
+
+System Testing : 
+
+Testing the app once the source code is compiled and deployed in a Server or System .
+
+
+
+Functional System Testing Types :
+
+
+1) Smoke Testing 
+
+2) Formal Testing 
+
+3) Retesting 
+
+4) Regression Testing
+
+5) Sanity Testing 
+
+subset of regression 
