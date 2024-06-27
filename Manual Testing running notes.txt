@@ -322,12 +322,69 @@ Functional System Testing Types :
 
 1) Smoke Testing 
 
+A quick test or rough test perfomed on new build  to verify major functionalities are working and also
+application stability or consistencency .
+
+
 2) Formal Testing 
 
 3) Retesting 
 
+The process of checking the bug is resolved in modified build is called ReTEsting .
+
 4) Regression Testing
 
-5) Sanity Testing 
+The process of checking the functionalities having any side effects because of code fix in modified build.
 
-subset of regression 
+5) Sanity Testing  (subset of regression )
+
+The process of checking the functionalities (subset of regression) in modified build (Preproduction or production build)
+
+6) Priorty based testing 
+
+If a formal testing performed based on priority of test cases .
+
+Here they will mention which one to execute first , next and which one to be executed last.
+
+
+7)End-to-End Testing 
+
+Performing testing on stable builds to verify combination of journeys or functionalities
+
+Special Functional System Testing Types :
+
+8) BenchMark testing 
+
+9) Exploratory Testing 
+
+10) Monkey or Gorilla Testing (Adhoc- No test cases)
+
+==========================================================================
+
+Non-Functional System Testing Types :
+
+1) UI or GUI Graphical User Interface Testing
+
+to checking the alignmnet of web elements (textbox ,buttons , radio button etc ..)
+spelling checking , color checking etc ..
+
+2) Usability testing 
+
+to check the user friendliness of the system / application 
+
+3) Performance 
+
+Responsiveness 
+Stability 
+
+i) Response time
+ii) Processing time 
+iii) User volume data 
+
+Load Testing : 
+
+-> Stress Testing 
+-> Spike Testing 
+-> Soak Testing 
+-> Data volume testing 
+
