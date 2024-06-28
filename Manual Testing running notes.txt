@@ -388,3 +388,66 @@ Load Testing :
 -> Soak Testing 
 -> Data volume testing 
 
+4) Security Testing 
+
+Encription
+Cookies injection 
+
+5) Globalization or Internationalization or I18N Testing
+
+6) Localization or L10N testing 
+
+7) Recovery Testing 
+
+8) Installation testing 
+
+9) UnInstallation testing 
+
+------------------------------------------
+UAT or User Acceptance Testing
+
+Alpha Testing :
+
+Testing carried out at company premises 
+
+
+Beta Testing :
+
+
+Testing carried out at client prmises
+
+
+
+===================================================================================
+Module 2: Software Testing Project 
+
+TM / TL / Testers 
+
+TM -  Test Manager
+TL - Test Lead 
+Tester 
+
+STLC or Software Testing Life Cycle 
+
+
+	  PM/TM/TL				Test Planning          Test Strategy & Test plan 
+								 |
+		TL/Testers			Test Analysis		   RCN - Requirements Clarification Notes 
+								 |
+		Testers				Test Design            TSC  , TCs (TSC - Test Scenario , TC -  Test cases)
+								 |
+	Testers/Dev Team		Test Execution         smoke test ,Reporting Defects , Retesting , Regression
+								 |
+		TM/TL				Test closure           Test summary reports
+		
+		
+----------------------------------------------------
+Test Planning          
+
+Test Strategy  : It's a high level document which tells about the testing activities carried out for a project.
+
+Test plan : 
+
+It's a detailed document which tells about the testing activities carried out for a project.
+
+ 
