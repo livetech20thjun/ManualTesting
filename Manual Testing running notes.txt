@@ -450,4 +450,26 @@ Test plan :
 
 It's a detailed document which tells about the testing activities carried out for a project.
 
- 
+
+====================================================
+A typical Test Plan document will consists of below sections :
+
+
+1)	Project Overview 
+2)	Documents references ( links for BRS/FRS/SRS or User stories)
+3) 	Scope of Testing 
+		3.1	In Scope 
+		3.2 Out Scope
+4) Test Strategy document
+5) Test Environments
+	test A :  https://www.testa.adactinhotelapp.com
+	test B :  https://www.testb.adactinhotelapp.com
+6) Test Deliverables: 
+	Test Scenarios
+	Test Cases
+	Test Scripts
+	RTM - Requirements Tracability Matrix 
+7) Staffing plan 
+8) Risk Planning and Mitigation plan 
+9) work Schedules 
+10) Approvals or Sign off 
