@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolex Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo"></img>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>ChronoCraft</p>
+                <h1>Where <span>Time</span><br>Meets Artistry</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Designer</h1>
+                    <p>At the heart of our watch collection lies the visionary mind of our talented designer, Olivia Sterling. With an innate passion for horology and an unwavering commitment to aesthetic excellence, Olivia has sculpted a unique identity in the world of watch design. Renowned for her meticulous attention to detail, innovative design concepts, and an unwavering dedication to quality, Olivia Sterling has seamlessly blended artistry and functionality. Each timepiece in our collection is a testament to her creative genius and a reflection of a deep understanding of the timeless allure of watches. Embark on a journey of style and precision as you explore our curated selection, each piece bearing the unmistakable signature of Olivia Sterling's mastery.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Awards</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Innovative Design Concepts</span><br>Over 12 years of experience in crafting unique and visionary watch designs that seamlessly blend creativity and functionality.</li>
+                            <li><span>Quality Assurance</span><br>A decade-long dedication to perfecting the finer aspects of watchmaking, ensuring each timepiece is a masterpiece of precision and aesthetics.</li>
+                            <li><span>Materials Expertise</span><br>Established a reputation for unwavering commitment to quality, honed over 15 years of refining and ensuring the excellence of every watch bearing the Olivia Sterling signature.</li>
+                            <li><span>Trendsetting Styles</span><br>Pioneering trends in the watch industry, Olivia has been setting style benchmarks for over 8 years, consistently delivering designs that resonate with contemporary fashion.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Design Evolution (2008-2023)</span><br> From the early days of experimentation to the present, Olivia's design language has evolved, showcasing a dynamic and ever-adapting creative spirit.</li>
+                            <li><span>Timeless Inspirations (2010-2015)</span><br> Drawing inspiration from various eras, Olivia spent five years delving into historical designs, infusing her creations with a timeless aesthetic that transcends trends.</li>
+                            <li><span>Innovative Breakthroughs (2012-2019)</span><br> Over the course of seven years, Olivia spearheaded groundbreaking design concepts, challenging conventions and redefining the boundaries of traditional watchmaking.</li>
+                            <li><span>Mastery in Detail (2013-2022)</span><br> Olivia's meticulous attention to detail reached its pinnacle over nine years, ensuring that every intricate component of her watches reflects a commitment to perfection.</li>
+                            <li><span>Global Recognition (2015-2020)</span><br> Garnering international acclaim over a five-year period, Olivia's designs captivated audiences worldwide, earning her a well-deserved place among the industry's elite.</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Horological Innovator Award (2018)</span><br> Recognizing Olivia's groundbreaking contributions to watch design, this prestigious award highlights her innovative breakthroughs in the industry.</li>
+                            <li><span>Precision Craftsmanship Award (2016)</span><br> Olivia earned this accolade for her exceptional attention to detail and dedication to precision in crafting intricate watch components.</li>
+                            <li><span>International Design Excellence Award (2017)</span><br> Olivia's global impact on the watch design landscape was acknowledged with this award, celebrating her excellence in international design.</li>
+                            <li><span>Timepiece of the Year (2019)</span><br> Olivia's outstanding design from that year was crowned as the Timepiece of the Year, a testament to her ability to create watches that captivate and define an era.</li>
+                            <li><span>Lifetime Achievement in Watchmaking (2022)</span><br> Olivia Sterling was honored with this prestigious award for her enduring contributions to the art and craft of watchmaking over the course of her career.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"><center>Our Watches</center></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/1.png" alt="">
+                    <div class="layer">
+                        <h2>Rolex EleganceMaster</h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/2.png" alt="">
+                    <div class="layer">
+                        <h2>RoyalLux EliteTimepiece
+                        </h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/3.png" alt="">
+                    <div class="layer">
+                        <h2>PrestigeCraft ChronoGlam
+                        </h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/4.png" alt="">
+                    <div class="layer">
+                        <h2>MajesticCrown PrestigeSeries
+                        </h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/5.png" alt="">
+                    <div class="layer">
+                        <h2>OpulentStyle MasterHorizon
+                        </h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/6.png" alt="">
+                    <div class="layer">
+                        <h2>OSignatureSculpt RadiantRhythm
+                        </h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/7.png" alt="">
+                    <div class="layer">
+                        <h2>TimelessGlamour GrandPrestige
+                        </h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/8.png" alt="">
+                    <div class="layer">
+                        <h2>RegalAura LuxeEternal
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <a href="blank" class="btn btn-show-more">Show More</a>
+            <a href="blank" class="btn btn-show-less">Show Less</a>
+        </div>
+    </div>
+ <!-- ----------SERVICES---------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title"><center>Our Services</center></h1>
+        <div class="services-list">
+            <div>
+                <h2>Personalized Engraving</h2>
+                <p>Offer a personalized engraving service for your watches. This allows customers to add a special touch by engraving a name, date, or meaningful message on the watch. Personalization adds sentimental value and makes the watch a unique and cherished item.</p>
+            </div>
+            <div>
+                <h2>Lifetime Warranty and Servicing</h2>
+                <p>Provide a comprehensive lifetime warranty along with regular servicing options. Assure customers that their investment is protected, and offer periodic check-ups and maintenance services to keep the watches in optimal condition.</p>
+            </div>
+            <div>
+                <h2>Exclusive Limited Edition Releases</h2>
+                <p>Introduce exclusive limited edition watch releases for your loyal customers. These limited editions could feature unique designs, materials, or collaborations, creating a sense of exclusivity and value for your customer base.</p>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- ----------LOCATION---------- -->
+ <div id="location" class='container'>
+    <h1 class="sub-title"><center>Our Location</center></h1>
+    <br>
+    <br>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5146911357465!2d30.057389414754873!3d-1.947099998580468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca42bf956db27%3A0x4ece45bc16223612!2sM%20Peace%20Plaza!5e0!3m2!1sen!2srw!4v1602582753849!5m2!1sen!2srw" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div><br>
+    <div class='container'>
+        <p><center>You can come to place your orders at our store.<br>We are located in Royal Watches Emporium 456 Regal Street Luxe City, Horologica 98765, Crown Corner make more lenghty.</center></p>
+    </div>
+</div>
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fas fa-paper-plane"></i> Rolex@rolex.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +1 99988 263 725</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest-square"></i></a>
+                    </div>
+                    <a href="Images/Terms.pdf" download class="btn btn2">Terms & Conditions</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fas fa-heart"></i> by Us for You.</p>
+        </div>
+    </div>
+</body>
+</html>
