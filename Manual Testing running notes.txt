@@ -824,3 +824,93 @@ spelling mistake in Company or brand name
 High Priority and Low Severity :
 
 for e.g in registration flow password and confirm password fields are not masked .
+
+
+==============================================================
+Bug Life Cycle :
+
+
+???????????????????????????????????????????????????????????
+Assignment - 7
+
+In adactinhotelapp find atleast 4 defects and report in
+bug template and send the excel to below email id
+
+riyazsirnotes@gmail.com
+?????????????????????????????????????????????????????????????
+
+
+End-to-End Testing on Final or Stable 
+
+
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+Module 3 : Agile Methodology and JIRA tool
+
+
+Agile Methodology is a SDLC Model 
+
+is a iterative and incremental model 
+
+Agile has different frameworks 
+
+-> Scrum 
+-> Kanban 
+-> Scaled Agile etc ..
+
+Scrum Framework :
+
+
+group of people working for some goal or cause is called Scrum Team or Squad 
+
+Scrum Team Consists of :
+
+1) Product Owner (PO) or Project Manager (1)
+2) Business Analyst (BA)  (1-2)
+3) Scrum Master (SM) (1)
+4) Solution Architect (SA) (1-2)
+5) UX Design (1)
+6) Dev Team (5 -8)
+	i) FE 
+		- Web
+		- Android
+		- iOS
+	ii) BE 
+		- Java Full Stack / Python full stack etc 
+7) QA Team (2 - 3)
+    i) Manual 
+		- Web / Mobile / API 
+	ii) Automation 
+8) DevOps (1)
+9) Database Engineer (1)
+
+total team strength (14 - 20)
+
+
+
+Terminolgies in Scrum Framework :
+
+i) User Story : a behaviour / journey / feature / functionality in application
+ii) Product Backlog : collection of user stories 
+iii) Sprint : time period or time span to complete User Story
+  duration can be 2 - 4 weeks
+iv) Sprint Backlog : collection of user stories for a particular sprint 
+v) story points : 
+time estimate to complete a user story 
+vi) Burndown chart 
+
+----------------------------------------------------
+Scrum Ceremonies or Scrum meetings 
+
+i) Sprint/Scrum  planning 
+ii) Daily Scrum or Daily standup or status call meeting 
+iii) Backlog refinement / Grooming 
+iv) Sprint Review or Demo 
+v) Sprint Retrospective 
+
+
+
+  
+ 
