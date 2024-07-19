@@ -79,3 +79,115 @@ and send screenshot to below email id
 riyazsirnotes@gmail.com
 
 ?????????????????????????????????????????????????????????????
+
+								jdk folders
+								
+								
+								
+			lib						bin/tools				jre/jmods 
+
+
+Lib : Library is a set of predefined stuff or pgrams used for app development		
+
+	
+								
+							lib (API)
+							 |
+							jars  (~ Zip folders)
+							  |
+							packages (~ folders)
+							   |
+			    ---------------------------------------
+			    |									   |
+		Classes										Interfaces
+		    |
+	-----------------						-------------------------
+	|				 |					    |                        |
+	Variables		Methods				Constants/Fields			 Abstract MEthods
+								
+								
+bin/tools :
+
+these are application or commands to maintain the programs 		
+
+javac 		-> to compile a java program				
+	
+syntax :
+
+javac ClassName.java 
+
+
+java   -> to run java program 
+
+syntax :
+
+java ClassName
+
+--------------------------------------
+jre (Java Runtime Environment)
+
+							jvm (java virtual machine)
+							 |
+		    ------------------------------------------
+			|					|					   |
+			CLSS               EE 					  GC 
+								|
+							--------------
+							|			  |
+						Interpreter		JIT 
+										compile 
+
+CLSS - Class Loader Subsystem 
+- Loading
+- Linking
+- Initialization
+
+EE - Execution Engine 
+	
+Interpreter --> BC to machine understandable code 
+JIT compiler --> Just in time compiler 
+
+GC : Garbage collector 
+
+Mark  - will identify the objects/varibale etc to be deallocated
+
+Sweep  - will do deallocation of per MArk request 
+
+--------------------------------------------------------------
+Structure of JAVA Program
+---------------------------------------------------------------	
+1. Documentation Section
+2. Package Section
+3. Import Section
+4. Class or Interface Section
+
+						
+1. Documentation Section 
+
+comments 
+
+single line comment // 
+
+multi line comments
+
+/* ljklkjkl
+kjhkjhjkhjk
+kjhkjhjkhh 
+*/
+
+2. package section
+
+package means similar to folders
+
+syntax
+
+package packagename;
+
+3. import section
+
+
+import package.*;
+
+import java.util.*;
+							
+								
