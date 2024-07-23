@@ -186,8 +186,196 @@ package packagename;
 3. import section
 
 
-import package.*;
+import package.*; ==> not prefered
 
 import java.util.*;
+
+import packagename.ClassName; ==> most prefered (Readability)
+
+4. Class/Interface 
+
+syntax : 
+
+access-specifier access-modifier class ClassName
+{
+
+//variables
+
+//methods 
+
+
+}
+
+or
+
+access-specifier access-modifier interface InterfaceName
+{
+
+//Constants/Fields
+
+//Abstract Methods  
+
+
+}
+
+access-specifier : access label 
+
+public / private / protected / <default> or <unspecicifed>
+
+
+access-modifier :
+
+static / abstract / transient / volatile / <default> or <unspecicifed>
+
+
+
+-------------------------------------------------------------
+Naming Conventions in Java 
+--------------------------------------------------------------
 							
+						packages (~ folders)
+							   |
+			    ---------------------------------------
+			    |									   |
+		Classes										Interfaces
+		    |
+	-----------------						-------------------------
+	|				 |					    |                        |
+	Variables		Methods				Constants/Fields			 Abstract MEthods
 								
+															
+															
+packages : all lower case 
+
+java.util
+
+org.openqa.selenium
+
+regression 
+
+
+Classes / Interfaces : Title case 
+
+Scanner
+
+ChromeDriver 
+
+ValidateLogin 
+
+															
+Variables / methods / abstract methods :  LowerCase + UpperCase = CamelCase 
+
+						
+						
+int x 
+
+double netSalary 
+
+costOfItem
+
+						
+main(
+
+nextInt(
+
+println(
+
+Constants/Fields : All Upper case
+
+PI = 3.14
+
+MAX_LIMIT=10000				
+
+-----------------------------------------------------
+JAVA MEMORY BLOCKS
+-----------------------------------------------------
+
+4 Blocks :
+
+
+1. Class Area / Method Area 
+
+static variables , static methods , static blocks , .class files etc ..
+
+2. Heap Area (Dynamic Memory Allocation Area)
+
+Objects , Arrays etc ..
+
+3. Java Stack Area (JSA)
+
+local variables , expressions , current running logic 
+
+int x=10;
+
+int y=20
+
+s.o.p(x+y);							
+
+
+4. String Constant Pool Area (SCPA)
+
+only for String literal 
+
+String s="LiveTech";
+
+-------------------------------------------------------------
+Variables in Java 
+-------------------------------------------------------------
+
+						variables
+						
+						
+		local				instance 			static 
+
+syntax :
+
+access-specifier access-modifier datatype varibaleName = value; 
+		
+						
+access-specifier access-modifier datatype varibaleName; declaration
+
+varibaleName = value; assignment or initialization 
+					
+
+5 points to be remembered 
+
+1. definition 
+2. where memory is getting allocated
+3. when memory allocated 
+4. what is calling style
+5. Scope or life time 
+		
+						
+Local Variables :
+
+
+1. definition 
+
+variables which are declared inside a method 
+
+2. where memory is getting allocated
+
+Java Stack Area 
+
+3. when memory allocated 
+
+when  the method is called 
+
+4. what is calling style
+
+varibaleName itself
+
+5. Scope or life time 
+
+till the end of method 
+
+Note :
+
+local variables should be initilized ,
+it's programmer or developer responsibilty to initilize with some value .
+
+
+VariablesDemo1.java:13: error: variable b might not have been initialized
+System.out.println(b);
+                   ^
+1 error
